@@ -17,6 +17,7 @@ spec:
         prefix: /weather
     route:
     - destination:
+        subset: leastconn
         host: weatherappsvc
         port:
           number: 8080
