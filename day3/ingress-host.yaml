@@ -10,14 +10,14 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-    - host: 'app1.157.230.196.217.nip.io'
+    - host: 'app1.139.59.223.10.nip.io'
       http:
         paths:
           - path: /
             backend: 
               serviceName: bgg-app-svc-v1
               servicePort: 80
-    - host: 'app2.157.230.196.217.nip.io'
+    - host: 'app2.139.59.223.10.nip.io'
       http:
         paths:
           - path: /
